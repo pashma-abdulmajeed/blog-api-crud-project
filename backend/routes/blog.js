@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import Blog from "../models/Blog.js";
+import Blog from "../models/blog.js";
 import authenticateToken from "../middleware/auth.js";
 
 const router = express.Router();
